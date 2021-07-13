@@ -1,26 +1,14 @@
-# Partie front :dog: :cat:
+# Pets In The Hood (front)
 
-## Librairies
+## Projet de fin de formation: permet de s'inscrire, de poster des annonces "j'ai perdu un animal" et "j'ai trouvé un animal", affichages des dernières annonces sur une carte
+
+![image](github-search.png)
+
+## Utilisation
+
 - React
-- Redux
-- React-redux
-- React-leaflet
-
-## Déroulement
-- Une branche par module
-- Chacun code un module
-- Si blocage, on se met à 2 sur un module en pair programming
-
-## Les couleurs
-- N'utiliser que les couleurs définies dans le fichier vars.scss
-- Ces couleurs sont bidon, si tout le monde utilise ces vars on pourra tout changer d'un coup avec les couleurs définitives
-- rappel: 
-```css
-@use 'src/styles/vars';
-
-&-title{
-    color: vars.$primaryColor;
-}
-```
-  
-**No stress ! On est 3 on peut faire du pair programming à 2 sans souci :muscle:**
+- React Router
+- Axios (fetch Api)
+- SemanticUi
+- React Leaflet
+- Symfony (back)

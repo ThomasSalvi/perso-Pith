@@ -1,0 +1,27 @@
+@use 'src/styles/vars';
+.error{
+  background-color:black;
+  height: 100vh;
+  padding-top: 2rem;
+  &-title{
+    font-size: 4rem;
+    color:vars.$white;
+  }
+  &-img{
+    width: 600px;
+    padding-top: 2rem;
+  }
+  & img{
+    width: 600px;
+  }
+  &-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.zero{
+  color: white;
+  font-family: vars.$police1;
+  font-size: 6rem;
+}

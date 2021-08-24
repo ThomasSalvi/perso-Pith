@@ -37,7 +37,7 @@ const ajax = (store) => (next) => (action) => {
     },
   };
   // url API Symfony et url API gouv
-  const url = 'http://ec2-100-25-4-132.compute-1.amazonaws.com/api';
+  const url = 'http://192.168.1.44:8000/api';
   const apiGouv = 'https://api-adresse.data.gouv.fr';
 
   // ---------Action-Type: Connect_USER---------

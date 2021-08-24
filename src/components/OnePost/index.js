@@ -34,7 +34,7 @@ const OnePost = ({ onePost, showEmailToggler, showEmail, getUser, ownerPostMail,
         </div>
       </div>
       <div className="onePost-right">
-        <img src={onePost.picture == null ? `${chien}` : `http://ec2-100-25-4-132.compute-1.amazonaws.com/uploads/pictures/${onePost.picture}`} alt="" className="onePost-right-img" />
+        <img src={onePost.picture == null ? `${chien}` : `http://192.168.1.44:8000/uploads/pictures/${onePost.picture}`} alt="" className="onePost-right-img" />
         <button type="button" onClick={HandleShowEmail} className="onePost-right-button">Contacter</button>
         {showEmailToggler && <p>{onePost.pet == null ? `Email du dépositaire de l'annonce:` : `Email du propriétaire:`}</p>}
         {showEmailToggler && <a href="mailto:san@antonio.net">{ownerPostMail}</a>}

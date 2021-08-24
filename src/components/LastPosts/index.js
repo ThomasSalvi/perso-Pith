@@ -47,7 +47,6 @@ const LastPosts = ({
           <label>Carte</label>
         </div>
       </div>
-      
       {!toggleMap && (
       <div className="last-posts-list">
           {fivePosts.map((onePost) => (
@@ -67,7 +66,7 @@ const LastPosts = ({
             <Marker key={onePost.id} position={[onePost.address.latitude, onePost.address.longitude]}>
               <Popup className="popup">
                 <div className="popup-wrap">
-                  <img src={chien} alt="" />
+                  <img src={`http://192.168.1.44:8000/uploads/pictures/${onePost.picture}`} alt="" />
                   <div className="popup-left">
                     <div className="popup-info">
                       <p className="popup-info-header">Découvert le: {onePost.dateOfDiscovery} </p>

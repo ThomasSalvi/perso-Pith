@@ -31,7 +31,7 @@ const Header = ({
           {isLogged && (
           <div className="userLogin">
             <div className="userLogin-img">
-              <img src={`http://ec2-100-25-4-132.compute-1.amazonaws.com/uploads/pictures/${picture}`} alt=""/>
+              <img src={`http://192.168.1.44:8000/uploads/pictures/${picture}`} alt=""/>
             </div>
             <Dropdown item text={pseudo} className="header-dropdown">
               <Dropdown.Menu direction="left" className="header-dropdown-wrapper">

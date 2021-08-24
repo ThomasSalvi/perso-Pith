@@ -13,7 +13,7 @@ postData.picture. == null ? chien : postdata.picture
 */
 
 const LastPost = ({ postData }) => {
-  const url = 'http://ec2-100-25-4-132.compute-1.amazonaws.com/uploads/pictures';
+  const url = 'http://192.168.1.44:8000/uploads/pictures';
   return (
     <NavLink className="menu-link" to={`/onepost/${postData.id}`} exact activeClassName="menu-link--active">
       <div className="last-post">

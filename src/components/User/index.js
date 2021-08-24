@@ -110,7 +110,7 @@ const User = (
       render: () => (
         <Tab.Pane>
           <div className="profil-picture">
-            <img src={`http://ec2-100-25-4-132.compute-1.amazonaws.com/uploads/pictures/${picture}`} alt="profil pic" />
+            <img src={`http://192.168.1.44:8000/uploads/pictures/${picture}`} alt="profil pic" />
 
             <Form onSubmit={handleSubmitPicture} enctype="multipart/form-data" name="myForm" id="myForm">
               <Form.Field>
@@ -144,7 +144,7 @@ const User = (
                 </NavLink>
               </div>
               <div className="wrapper-pet-picture">
-                <img src={pet.picture == null ? `${chien}` : `http://ec2-100-25-4-132.compute-1.amazonaws.com/uploads/pictures/${pet.picture}`} alt=""/>
+                <img src={pet.picture == null ? `${chien}` : `http://192.168.1.44:8000/uploads/pictures/${pet.picture}`} alt=""/>
               </div>
             </div>
           ))}

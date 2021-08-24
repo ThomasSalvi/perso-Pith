@@ -24,7 +24,7 @@ const petDescription = ({ onePetUserSearch }) => {
         </div>
       </div>
       <div className="pet-description-right">
-        <img className="pet-description-img" src={onePetUserSearch.picture == null ? `${chien}` : `http://ec2-100-25-4-132.compute-1.amazonaws.com/uploads/pictures/${onePetUserSearch.picture}`} alt="" />
+        <img className="pet-description-img" src={onePetUserSearch.picture == null ? `${chien}` : `http://192.168.1.44:8000/uploads/pictures/${onePetUserSearch.picture}`} alt="" />
       </div>
 
     </div>
